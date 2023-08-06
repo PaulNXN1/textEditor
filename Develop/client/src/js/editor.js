@@ -1,3 +1,5 @@
+// Please note - this page was pre-written code provided by UPENN teaching staff. 
+
 // Import methods to save and get data from the indexedDB database in './database.js'
 import { getDb, putDb } from './database';
 import { header } from './header';
