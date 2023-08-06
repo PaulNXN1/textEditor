@@ -1,4 +1,10 @@
+// Code provided - which below shows the database importing 
+
 import { openDB } from 'idb';
+
+// This is code showing how the database is created  
+
+
 
 const initdb = async () =>
   openDB('jate', 1, {
@@ -12,10 +18,29 @@ const initdb = async () =>
     },
   });
 
-// TODO: Add logic to a method that accepts some content and adds it to the database
-export const putDb = async (content) => console.error('putDb not implemented');
 
-// TODO: Add logic for a method that gets all the content from the database
+
+// TODO - for the student : Add logic to a method that accepts some content and adds it to the database
+export const putDb = async (content) => { 
+  
+  console.error('putDb not implemented');
+
+  const jateDb = await openDB('jate', 1);
+  const text = jateDb.transaction('jate', 'readwrite');
+  const store = text.objectStore('jate');
+  const requestUpdate = store.put({id: 1, value: content});
+   const finalResult = await requestUpdate;
+
+   // Console log confirmation message //
+
+  console.log('Super - all data saved.', finalResult);
+
+}
+
+// TODO - for the student : Add logic for a method that gets all the content from the database
 export const getDb = async () => console.error('getDb not implemented');
+
+
+// Callback f(x)
 
 initdb();
