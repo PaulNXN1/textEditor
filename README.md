@@ -33,7 +33,7 @@ The main point of focus was confirming the application still worked storing data
 
 URL to GitHub Repository:    https://github.com/PaulNXN1/textEditor
 
-URL to Heroku Deployed Application:  https://dashboard.heroku.com/apps/text-editor-pn/logs
+URL to Heroku Deployed Application:  https://text-editor-pn-cb98215ecbe7.herokuapp.com/
 
 Thank you!
 
