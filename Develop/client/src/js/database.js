@@ -54,6 +54,6 @@ export const getDb = async () => {
 };
 
 
-// Callback f(x)
+// Callback / running f(x)
 
 initdb();
