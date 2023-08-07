@@ -39,4 +39,9 @@ Thank you!
 
 
 
+https://github.com/PaulNXN1/textEditor/assets/84299358/d88bbf09-89cf-461d-bd48-7fc25060de4d
+
+
+
+![JATE ](https://github.com/PaulNXN1/textEditor/assets/84299358/bd9300ea-537d-4c5b-b10f-23f37552665e)
 
