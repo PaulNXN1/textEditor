@@ -4,6 +4,9 @@ const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
 // Above imports were pre-written
 
+
+
+
 //Below for the students:
 
 // TODO: Add and configure workbox plugins for a service worker and manifest file.
